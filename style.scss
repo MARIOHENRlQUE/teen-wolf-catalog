@@ -16,8 +16,7 @@ body{
     justify-content: right;
     align-items: center;
     flex-flow: row nowrap;
-    background-image: url(pictures/Screenshot\ from\ 2023-02-01\ 10-38-56.png);
-    background-size: cover;
+    background-image: url(pictures/wp2633905.png);
     .content-center{
         box-shadow: 0px 0px 6px 5px rgb(0, 0, 0);
         background-image: url(pictures/teen-wolf-filme-em-2023-scaled-e1670870260129.jpg);
@@ -34,9 +33,10 @@ body{
                 flex-flow: row nowrap;
                 justify-content:left;
                 margin: 5% 1% 1% 5%;
-                gap: 3vw;
+                gap: 2vw;
                 a{
-                    font-size: 17px;
+                    font-size: 13px;
+                    font-weight: 400;
                     color: rgb(255, 255, 255);
                 }
             }
@@ -56,35 +56,64 @@ body{
                 left: 60px;
                 .copy{
                     p{
-                        font-size: 1.5vw;
+                        font-size: 1.6vw;
+                        font-weight: 400;
                     }
                 }
                 .synopsis{
                     p{
-                        font-size: 0.6vw;
-                        text-align:justify;
+                        font-size: 0.73vw;
+                        font-weight: 400;
+                        text-align:left;
                     }
                 }
                 .section2-center{
                     display: flex;
                     flex-flow: row nowrap;
-                    justify-content: space-around;
+                    justify-content: left;
                     padding-top: 5%;
+                    position: relative;
+                    left: 10px;
+                    gap: 50px;
                     .item1{
                         display: flex;
                         flex-flow: row nowrap;
                         justify-content: center;
                         align-items: center;
                         gap: 20px;
-                        font-size: 0.6vw;
+                        li{
+                            font-size: 12px;
+                            font-weight: 400;
+                        }
                     }
                     .item2{
                         display: flex;
                         flex-flow: row nowrap;
-                        justify-content: center;
+                        justify-content:center;
                         align-items: center;
-                        font-size: 0.6vw;
-
+                        gap: 5px;
+                        .stars{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            i{
+                                font-size: 8px;
+                            }
+                        }
+                        .porcente{
+                            font-size: 12px;
+                        }
+                        .age{
+                            position:relative;
+                            left: 5px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            img{
+                                width: 20px;
+                                height: 18px;
+                            }
+                        }
                     }
                 }
             }
