@@ -1,8 +1,10 @@
 /*# sourceMappingURL=style.scss.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif; }
 
 body {
   width: 100vw;
@@ -12,16 +14,62 @@ body {
   display: flex;
   justify-content: right;
   align-items: center;
-  flex-flow: row nowrap; }
+  flex-flow: row nowrap;
+  background-image: url(pictures/Screenshot\ from\ 2023-02-01\ 10-38-56.png);
+  background-size: cover; }
   body .content-center {
-    width: 60vw;
+    box-shadow: 0px 0px 6px 5px black;
+    background-image: url(pictures/teen-wolf-filme-em-2023-scaled-e1670870260129.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px 0 0 50px;
+    width: 50vw;
     height: 80vh;
-    background-color: #c95151; }
-    body .content-center header nav {
-      display: flex;
-      flex-flow: row nowrap;
-      width: 60%;
-      background-color: blue;
-      justify-content: space-evenly; }
+    position: static; }
+    body .content-center header {
+      padding-bottom: 5%; }
+      body .content-center header nav {
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: left;
+        margin: 5% 1% 1% 5%;
+        gap: 3vw; }
+        body .content-center header nav a {
+          font-size: 17px;
+          color: white; }
+    body .content-center section .main-img img {
+      width: 20vw;
+      height: 20vh;
+      position: relative;
+      left: -50px; }
+    body .content-center section .section-center {
+      width: 50%;
+      height: auto;
+      position: relative;
+      left: 60px; }
+      body .content-center section .section-center .copy p {
+        font-size: 1.5vw; }
+      body .content-center section .section-center .synopsis p {
+        font-size: 0.6vw;
+        text-align: justify; }
+      body .content-center section .section-center .section2-center {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        padding-top: 5%; }
+        body .content-center section .section-center .section2-center .item1 {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          font-size: 0.6vw; }
+        body .content-center section .section-center .section2-center .item2 {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.6vw; }
 
 /*# sourceMappingURL=style.css.map */

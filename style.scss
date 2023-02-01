@@ -1,9 +1,11 @@
 
 /*# sourceMappingURL=style.scss.map */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     width: 100vw;
@@ -14,17 +16,77 @@ body{
     justify-content: right;
     align-items: center;
     flex-flow: row nowrap;
+    background-image: url(pictures/Screenshot\ from\ 2023-02-01\ 10-38-56.png);
+    background-size: cover;
     .content-center{
-        width:  60vw;
+        box-shadow: 0px 0px 6px 5px rgb(0, 0, 0);
+        background-image: url(pictures/teen-wolf-filme-em-2023-scaled-e1670870260129.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 50px 0 0 50px;
+        width:  50vw;
         height: 80vh;
-        background-color: rgb(201, 81, 81);
+        position: static;
         header{
             nav{
+                position: relative;
                 display: flex;
                 flex-flow: row nowrap;
-                width: 60%;
-                background-color: blue;
-                justify-content:space-evenly;
+                justify-content:left;
+                margin: 5% 1% 1% 5%;
+                gap: 3vw;
+                a{
+                    font-size: 17px;
+                    color: rgb(255, 255, 255);
+                }
+            }
+            padding-bottom: 5%;
+        }
+        section{
+            .main-img img{
+                width: 20vw;
+                height: 20vh;
+                position: relative;
+                left: -50px;
+            }
+            .section-center{
+                width: 50%;
+                height: auto;
+                position: relative;
+                left: 60px;
+                .copy{
+                    p{
+                        font-size: 1.5vw;
+                    }
+                }
+                .synopsis{
+                    p{
+                        font-size: 0.6vw;
+                        text-align:justify;
+                    }
+                }
+                .section2-center{
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-around;
+                    padding-top: 5%;
+                    .item1{
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 20px;
+                        font-size: 0.6vw;
+                    }
+                    .item2{
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 0.6vw;
+
+                    }
+                }
             }
         }
     }
