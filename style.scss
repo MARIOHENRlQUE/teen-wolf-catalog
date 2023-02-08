@@ -68,6 +68,12 @@ body{
                     p{
                         font-size: 1.5vw;
                         font-weight: 400;
+                        .ice{
+                            color: rgba(46, 67, 105, 0.733);
+                        }
+                        .fire{
+                            color: rgb(75, 10, 10);
+                        }
                     }
                 }
                 .synopsis{
