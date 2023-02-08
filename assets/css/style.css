@@ -1,0 +1,2 @@
+*{box-sizing:border-box;padding:0;text-decoration:none}body{width:100vw;height:100vh;background-color:#23473b;margin:0;display:flex;justify-content:right;align-items:center;flex-flow:row nowrap}body .content-center{width:60vw;height:80vh;background-color:#c95151}body .content-center header nav{display:flex;flex-flow:row nowrap;width:60%;background-color:blue;justify-content:space-evenly}
+/*# sourceMappingURL=style.css.map */
