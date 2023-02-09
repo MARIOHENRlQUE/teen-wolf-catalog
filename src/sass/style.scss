@@ -18,7 +18,7 @@ body{
     align-items: center;
     flex-flow: row nowrap;
     background-image: url(../../assets/bluer-background.png);
-    .content-center{
+    .content-right{
         box-shadow: 0px 0px 6px 5px rgb(0, 0, 0);
         background-image: url(../../assets/main-banner.jpg);
         background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body{
         height: 80vh;
         position: static;
         header{
-            nav{
+            .navbar{
                 border-radius: 50px 50px 0px 0px;
                 background-color: #00000033;
                 padding: 50px 30px 30px 50px;
@@ -54,18 +54,18 @@ body{
             padding-bottom: 2%;
         }
         section{
-            .main-img img{
+            .main-tittle-name img{
                 width: 20vw;
                 height: 18vh;
                 position: relative;
                 left: 45px;
             }
-            .section-center{
+            .section-left-align{
                 width: 50%;
                 height: auto;
                 position: relative;
                 left: 60px;
-                .copy{
+                .quote-text{
                     p{
                         font-size: 1.5vw;
                         font-weight: 400;
@@ -77,7 +77,7 @@ body{
                         }
                     }
                 }
-                .synopsis{
+                .synopsis-text{
                     p{
                         font-size: 0.80vw;
                         font-weight: 400;
@@ -85,7 +85,7 @@ body{
                         width: 20vw;
                     }
                 }
-                .section2-center{
+                .section-footer{
                     display: flex;
                     flex-flow: row nowrap;
                     justify-content: left;
@@ -93,7 +93,7 @@ body{
                     position: relative;
                     left: 10px;
                     gap: 50px;
-                    .item1{
+                    .section-footer-left{
                         display: flex;
                         flex-flow: row nowrap;
                         justify-content: center;
@@ -107,13 +107,13 @@ body{
                             font-weight: 400;
                         }
                     }
-                    .item2{
+                    .section-footer-right{
                         display: flex;
                         flex-flow: row nowrap;
                         justify-content:center;
                         align-items: center;
                         gap: 5px;
-                        .stars{
+                        .join-stars{
                             display: flex;
                             justify-content: center;
                             align-items: center;
@@ -121,10 +121,10 @@ body{
                                 font-size: 8px;
                             }
                         }
-                        .porcente{
+                        .porcente-movie{
                             font-size: 12px;
                         }
-                        .age{
+                        .age-restriction{
                             position:relative;
                             left: 5px;
                             display: flex;
@@ -140,7 +140,7 @@ body{
             }
         }
         footer{
-            .trailer{
+            .trailers-movie-footer{
                 border-radius: 20px;
                 width: 15vw;
                 height: 10vw;
