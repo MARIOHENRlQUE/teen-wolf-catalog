@@ -1,0 +1,93 @@
+
+/*# sourceMappingURL=style.scss.map */
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: white;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(35, 71, 59);
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-flow: row nowrap;
+    background-image: url(../../assets/bluer-background.png);
+    .content-right{
+        box-shadow: 0px 0px 6px 5px rgb(0, 0, 0);
+        background-image: url(../../assets/rs_1024x759-teste.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 50px 0 0 50px;
+        width:  50vw;
+        height: 80vh;
+        position: static;
+        header{
+            .navbar{
+                border-radius: 50px 50px 0px 0px;
+                background-color: #00000033;
+                padding: 50px 30px 30px 50px;
+                position: relative;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content:left;
+                gap: 2vw;
+                :nth-child(2){
+                    border-bottom: solid red;
+                }
+            }
+                a{
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: rgb(255, 255, 255);
+                    transition: 0.6s;
+                    &:hover{
+                        color: rgba(255, 255, 255, 0.712);
+                    }
+                }
+            padding-bottom: 2%;
+        }
+        section{
+            box-shadow: 8px 0px 40px 2px rgb(0, 0, 0);
+            background-color:rgba(0, 0, 0, 0.62);
+            width: 100%;
+            margin: auto;
+            height: 84%;
+            overflow: scroll;
+            padding: 0px 8%;
+            border-radius: 0px 0px 0px 50px;
+            .line-one{
+                .tittle-line-one{
+                    font-size: 17px;
+                }
+                p{
+                  font-size: 13px;
+                  text-align: justify;
+                }
+            }
+            .line-two{
+                .tittle-line-two{
+                    font-size: 17px;
+                }
+                p{
+                  font-size: 13px;
+                  text-align: justify;
+                }
+            }
+            .line-three{
+                .tittle-line-three{
+                    font-size: 17px;
+                }
+                ul li{
+                  font-size: 13px;
+                  text-align: justify;
+                }
+            }
+        }
+    }
+}
