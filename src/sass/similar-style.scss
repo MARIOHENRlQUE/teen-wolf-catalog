@@ -57,15 +57,16 @@ body{
             margin: auto;
             height: 84%;
             overflow: scroll;
-            padding: 0px 7%;
+            padding: 0px 3%;
             border-radius: 0px 0px 0px 50px;
             .line{
+                width: 300x;
                 display: flex;
                 flex-flow: row nowrap;
-                justify-content: center;
+                justify-content:space-evenly;
                 align-items: center;
-                gap: 13px;
-                padding: 8px 0px;
+                // gap: 15px;
+                padding: 10px 0px;
                 .column{
                     border-radius: 12px;
                 }
@@ -74,7 +75,7 @@ body{
                 .column-1{
                     background-image: url(/assets/similar-viking-wolf.png);
                     width: 15vw;
-                    height: 36.6vh;
+                    height: 35.0vh;
                     .clock{
                         position: relative;
                         background-color: rgba(0, 0, 0, 0.724);
@@ -88,29 +89,174 @@ body{
                     .synopse{
                         position: relative;
                         font-size: 14px;
-                        top: 40%;
+                        top: 42%;
                         text-align: left;
                         padding: 0px 10px;
                         margin: 0;
                         font-weight: 200;
                     }
-                    .age-14{
-                        width: 45px;
+                    .footer-content{
+                        display: flex;
                         position: relative;
-                        top: 52%;
-                        left: 5%;
-                        margin: 0;
+                        top: 50%;
+                        align-items: center;
+                        justify-content:space-around;
+                        .footer-content-left{
+                            justify-content: center;
+                            align-items: center;
+                            display: flex;
+                            gap: 10px;
+                            .age{
+                                width: 34px;
+                            }
+                            .footer-content-left-right{
+                                display: flex;
+                                gap: 5px;
+                                justify-content: center;
+                                align-items: center;
+                                .taxa p{
+                                    font-size: 15px;
+                                    text-shadow: 1px 0px  rgb(48, 196, 85);
+                                    color: rgba(20, 20, 20, 0);
+                                    font-weight:900;
+                                    margin: 0;
+                                }
+                                .joinha{
+                                    width: 15px;
+                                    height: 15px;
+                                }
+                            }
+                        }
+                        .play{
+                            width: 55px;
+                        }
                     }
                 }
+
                 .column-2{
-                    background-image: url(/assets/similar-viking-wolf.png);
+                    background-image: url(/assets/a-ordem.png);
                     width: 15vw;
-                    height: 36.6vh;
+                    height: 35.0vh;
+                    .clock{
+                        position: relative;
+                        background-color: rgba(0, 0, 0, 0.724);
+                        margin: 0;
+                        text-align: end;
+                        box-shadow: 0px 5px 30px 20px rgba(0, 0, 0, 0.724);
+                        padding: 8px 10px 0px 0px;
+                        font-weight: 400;
+
+                    }
+                    .synopse{
+                        position: relative;
+                        font-size: 14px;
+                        top: 42%;
+                        text-align: left;
+                        padding: 0px 10px;
+                        margin: 0;
+                        font-weight: 200;
+                    }
+                    .footer-content{
+                        display: flex;
+                        position: relative;
+                        top: 50%;
+                        align-items: center;
+                        justify-content:space-around;
+                        .footer-content-left{
+                            justify-content: center;
+                            align-items: center;
+                            display: flex;
+                            gap: 10px;
+                            .age{
+                                width: 34px;
+                            }
+                            .footer-content-left-right{
+                                display: flex;
+                                gap: 5px;
+                                justify-content: center;
+                                align-items: center;
+                                .taxa p{
+                                    font-size: 15px;
+                                    text-shadow: 1px 0px  rgb(48, 196, 85);
+                                    color: rgba(20, 20, 20, 0);
+                                    font-weight:900;
+                                    margin: 0;
+                                }
+                                .joinha{
+                                    width: 15px;
+                                    height: 15px;
+                                }
+                            }
+                        }
+                        .play{
+                            width: 55px;
+                        }
+                    }
                 }
+
                 .column-3{
-                    background-image: url(/assets/similar-viking-wolf.png);
+                    background-image: url(/assets/van-helsing.png);
                     width: 15vw;
-                    height: 36.6vh;
+                    height: 35.0vh;
+                    .clock{
+                        position: relative;
+                        background-color: rgba(0, 0, 0, 0.724);
+                        margin: 0;
+                        text-align: end;
+                        box-shadow: 0px 5px 30px 20px rgba(0, 0, 0, 0.724);
+                        padding: 8px 10px 0px 0px;
+                        font-weight: 400;
+
+                    }
+                    .synopse{
+                        position: relative;
+                        font-size: 14px;
+                        top: 42%;
+                        text-align: left;
+                        padding: 0px 10px;
+                        margin: 0;
+                        font-weight: 200;
+                    }
+                    .footer-content{
+                        display: flex;
+                        position: relative;
+                        top: 50%;
+                        align-items: center;
+                        justify-content:space-around;
+                        .footer-content-left{
+                            position: relative;
+                            bottom: 13px;
+                            justify-content: center;
+                            align-items: center;
+                            display: flex;
+                            gap: 10px;
+                            .age{
+                                width: 34px;
+                            }
+                            .footer-content-left-right{
+                                display: flex;
+                                gap: 5px;
+                                justify-content: center;
+                                align-items: center;
+                                .taxa p{
+                                    font-size: 15px;
+                                    text-shadow: 1px 0px  rgb(48, 196, 85);
+                                    color: rgba(20, 20, 20, 0);
+                                    font-weight:900;
+                                    margin: 0;
+                                }
+                                .joinha{
+                                    width: 15px;
+                                    height: 15px;
+                                }
+                            }
+                        }
+                        .play{
+                            position: relative;
+                            bottom: 10px;
+                            width: 55px;
+                        }
+                    }
                 }
 
             }
