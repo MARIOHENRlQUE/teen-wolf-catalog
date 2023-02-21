@@ -1,11 +1,10 @@
 
 /*# sourceMappingURL=style.scss.map */
-// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Inter', sans-serif;
     color: white;
 }
 body{
@@ -17,10 +16,10 @@ body{
     justify-content: right;
     align-items: center;
     flex-flow: row nowrap;
-    background-image: url(../../assets/bluer-background.png);
+    background-image: url(../../assets/defaut-page/bluer-background.png);
     .content-right{
         box-shadow: 0px 0px 6px 5px rgb(0, 0, 0);
-        background-image: url(../../assets/main-banner.jpg);
+        background-image: url(../../assets/home-page/main-banner.jpg);
         background-repeat: no-repeat;
         background-size:cover;
         border-radius: 50px 0 0 50px;
