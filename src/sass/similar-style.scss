@@ -15,10 +15,10 @@ body{
     justify-content: right;
     align-items: center;
     flex-flow: row nowrap;
-    background-image: url(../../assets/bluer-background.png);
+    background-image: url(../../assets/defaut-page/bluer-background.png);
     .content-right{
         box-shadow: 0px 0px 6px 5px rgb(0, 0, 0);
-        background-image: url(../../assets/rs_1024x759-teste.png);
+        background-image: url(../../assets/similars-page/content-background.png);
         background-repeat: no-repeat;
         background-size:cover;
         border-radius: 50px 0 0 50px;
@@ -39,15 +39,15 @@ body{
                     border-bottom: solid red;
                 }
             }
-                a{
-                    font-size: 15px;
-                    font-weight: 500;
-                    color: rgb(255, 255, 255);
-                    transition: 0.6s;
-                    &:hover{
-                        color: rgba(255, 255, 255, 0.712);
-                    }
+            a{
+                font-size: 15px;
+                font-weight: 500;
+                color: rgb(255, 255, 255);
+                transition: 0.6s;
+                &:hover{
+                    color: rgba(255, 255, 255, 0.712);
                 }
+            }
             padding-bottom: 2%;
         }
         section{
@@ -62,20 +62,17 @@ body{
             .line{
                 width: 300x;
                 display: flex;
-                flex-flow: row nowrap;
-                justify-content:space-evenly;
+                flex-flow: row wrap;
+                justify-content:center;
                 align-items: center;
-                // gap: 15px;
                 padding: 10px 0px;
+                gap: 30px;
                 .column{
-                    border-radius: 12px;
-                }
-            }
-            .line-1{
-                .column-1{
-                    background-image: url(/assets/similar-viking-wolf.png);
-                    width: 15vw;
-                    height: 35.0vh;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 9px;
+                    width: 12vw;
+                    height: 31.0vh;
                     .clock{
                         position: relative;
                         background-color: rgba(0, 0, 0, 0.724);
@@ -84,20 +81,20 @@ body{
                         box-shadow: 0px 5px 30px 20px rgba(0, 0, 0, 0.724);
                         padding: 8px 10px 0px 0px;
                         font-weight: 400;
-
+        
                     }
                     .synopse{
                         position: relative;
-                        font-size: 14px;
-                        top: 42%;
-                        text-align: left;
-                        padding: 0px 10px;
+                        font-size: 12px;
+                        top: 40%;
+                        text-align:left;
+                        padding: 0px 7px 0px 10px;
                         margin: 0;
                         font-weight: 200;
                     }
                     .footer-content{
                         display: flex;
-                        position: relative;
+                        position:relative;
                         top: 50%;
                         align-items: center;
                         justify-content:space-around;
@@ -107,19 +104,22 @@ body{
                             display: flex;
                             gap: 10px;
                             .age{
-                                width: 34px;
+                                width: 38px;
                             }
                             .footer-content-left-right{
                                 display: flex;
                                 gap: 5px;
                                 justify-content: center;
                                 align-items: center;
+                                position: relative;
+                                top: 5px;
                                 .taxa p{
                                     font-size: 15px;
                                     text-shadow: 1px 0px  rgb(48, 196, 85);
                                     color: rgba(20, 20, 20, 0);
                                     font-weight:900;
                                     margin: 0;
+                                    padding: 0;
                                 }
                                 .joinha{
                                     width: 15px;
@@ -129,132 +129,248 @@ body{
                         }
                         .play{
                             width: 55px;
+                            transition: 5s;
+                            border-radius: 25px;
+                            &:hover{
+                                position: relative;
+                                bottom: 2px;
+                                cursor: pointer;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .line-1{
+                .column-1{
+                    background-image: url(/assets/similars-page/similars/similar-viking-wolf.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 151px;;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+
+                                }
+                            }
                         }
                     }
                 }
 
                 .column-2{
-                    background-image: url(/assets/a-ordem.png);
-                    width: 15vw;
-                    height: 35.0vh;
-                    .clock{
-                        position: relative;
-                        background-color: rgba(0, 0, 0, 0.724);
-                        margin: 0;
-                        text-align: end;
-                        box-shadow: 0px 5px 30px 20px rgba(0, 0, 0, 0.724);
-                        padding: 8px 10px 0px 0px;
-                        font-weight: 400;
-
-                    }
+                    background-image: url(/assets/similars-page/similars/a-ordem.png);
                     .synopse{
-                        position: relative;
-                        font-size: 14px;
-                        top: 42%;
-                        text-align: left;
-                        padding: 0px 10px;
-                        margin: 0;
-                        font-weight: 200;
                     }
                     .footer-content{
-                        display: flex;
-                        position: relative;
-                        top: 50%;
-                        align-items: center;
-                        justify-content:space-around;
+                        top: 135px;
                         .footer-content-left{
-                            justify-content: center;
-                            align-items: center;
-                            display: flex;
-                            gap: 10px;
                             .age{
-                                width: 34px;
                             }
                             .footer-content-left-right{
-                                display: flex;
-                                gap: 5px;
-                                justify-content: center;
-                                align-items: center;
                                 .taxa p{
-                                    font-size: 15px;
-                                    text-shadow: 1px 0px  rgb(48, 196, 85);
-                                    color: rgba(20, 20, 20, 0);
-                                    font-weight:900;
-                                    margin: 0;
                                 }
                                 .joinha{
-                                    width: 15px;
-                                    height: 15px;
                                 }
                             }
                         }
-                        .play{
-                            width: 55px;
+                        
+                    }
+                }
+                
+                .column-3{
+                    background-image: url(/assets/similars-page/similars/van-helsing.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 135px;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+                                }
+                            }
                         }
                     }
                 }
 
-                .column-3{
-                    background-image: url(/assets/van-helsing.png);
-                    width: 15vw;
-                    height: 35.0vh;
-                    .clock{
-                        position: relative;
-                        background-color: rgba(0, 0, 0, 0.724);
-                        margin: 0;
-                        text-align: end;
-                        box-shadow: 0px 5px 30px 20px rgba(0, 0, 0, 0.724);
-                        padding: 8px 10px 0px 0px;
-                        font-weight: 400;
-
-                    }
+            }
+            .line-2{
+                .column-1{
+                    background-image: url(/assets/similars-page/similars/bela-fera.png);
                     .synopse{
-                        position: relative;
-                        font-size: 14px;
-                        top: 42%;
-                        text-align: left;
-                        padding: 0px 10px;
-                        margin: 0;
-                        font-weight: 200;
                     }
                     .footer-content{
-                        display: flex;
-                        position: relative;
-                        top: 50%;
-                        align-items: center;
-                        justify-content:space-around;
+                        top: 135px;
                         .footer-content-left{
-                            position: relative;
-                            bottom: 13px;
-                            justify-content: center;
-                            align-items: center;
-                            display: flex;
-                            gap: 10px;
                             .age{
-                                width: 34px;
                             }
                             .footer-content-left-right{
-                                display: flex;
-                                gap: 5px;
-                                justify-content: center;
-                                align-items: center;
                                 .taxa p{
-                                    font-size: 15px;
-                                    text-shadow: 1px 0px  rgb(48, 196, 85);
-                                    color: rgba(20, 20, 20, 0);
-                                    font-weight:900;
-                                    margin: 0;
                                 }
                                 .joinha{
-                                    width: 15px;
-                                    height: 15px;
                                 }
                             }
                         }
-                        .play{
-                            position: relative;
-                            bottom: 10px;
-                            width: 55px;
+                    }
+                }
+
+                .column-2{
+                    background-image: url(/assets/similars-page/similars/wolf-patch.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 151px;;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+                                }
+                            }
+                        }
+                    }
+                }
+                .column-3{
+                    background-image: url(/assets/similars-page/similars/crepsculo-similar.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 151px;;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            .line-3{
+                .column-1{
+                    background-image: url(/assets/similars-page/similars/night-wolf.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 135px;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .column-2{
+                    background-image: url(/assets/similars-page/similars/imperfects.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 135px;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+                                }
+                            }
+                        }
+                    }
+                }
+                .column-3{
+                    background-image: url(/assets/similars-page/similars/shadow-hunter.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 151px;;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            .line-4{
+                .column-1{
+                    background-image: url(/assets/similars-page/similars/the-wolfman.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 163px;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .column-2{
+                    background-image: url(/assets/similars-page/similars/the-wolf-between-us.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 135px;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+                                }
+                            }
+                        }
+                    }
+                }
+                .column-3{
+                    background-image: url(/assets/similars-page/similars/penny-dreadful.png);
+                    .synopse{
+                    }
+                    .footer-content{
+                        top: 135px;
+                        .footer-content-left{
+                            .age{
+                            }
+                            .footer-content-left-right{
+                                .taxa p{
+                                }
+                                .joinha{
+                                }
+                            }
                         }
                     }
                 }
