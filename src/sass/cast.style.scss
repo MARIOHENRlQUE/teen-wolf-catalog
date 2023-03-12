@@ -1,0 +1,96 @@
+// @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+*{
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(35, 71, 59);
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-flow: row nowrap;
+    background-image: url(../../assets/defaut-page/bluer-background.png);
+    .content-right{
+        box-shadow: 0px 0px 6px 5px rgb(0, 0, 0);
+        background-image: url(../../assets/similars-page/content-background.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 50px 0 0 50px;
+        width:  50vw;
+        height: 80vh;
+        position: static;
+        header{
+            .navbar{
+                border-radius: 50px 50px 0px 0px;
+                background-color: #00000033;
+                padding: 50px 30px 30px 50px;
+                position: relative;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content:left;
+                gap: 2vw;
+                :nth-child(4){
+                    border-bottom: solid red;
+                }
+            }
+            a{
+                font-size: 15px;
+                font-weight: 500;
+                color: rgb(255, 255, 255);
+                transition: 0.6s;
+                &:hover{
+                    color: rgba(255, 255, 255, 0.712);
+                }
+            }
+            padding-bottom: 2%;
+        }
+        section{
+            box-shadow: 8px 0px 40px 2px rgb(0, 0, 0);
+            background-color:rgba(0, 0, 0, 0.62);
+            width: 100%;
+            margin: auto;
+            height: 84%;
+            overflow: scroll;
+            padding: 0px 3%;
+            border-radius: 0px 0px 0px 50px;
+            .line{
+                width: 300x;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content:center;
+                align-items: center;
+                padding: 10px 0px;
+                gap: 30px;
+                .column{
+                    width: 11vw;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    .actors{
+                        width: 8vw;
+                        height: 8vw;
+                        border-radius: 100px;
+                    }
+                    p{
+                        font-size: 12px;
+                        &:nth-child(1){
+                            font-weight: 500;
+                        }
+                        &:nth-child(2){
+                            padding-top: 15px;
+                            font-size: 20px;
+                        }
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
